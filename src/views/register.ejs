@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head.ejs', { title : 'Registro'}) %> 
+<body>
+    <%- include('./partials/header.ejs') %> 
+    <h1>Registrese</h1>
+    <form method="POST"> 
+             
+        <input type="email" name="email" id="email" placeholder="Ingrese aqui su email">
+
+        <input type="password" name="password" id="password" placeholder="Ingrese aqui su contraseña">
+
+        <input type="submit" value="Acceder">
+    </form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head.ejs', { title : 'Home'}) %> 
+<body>
+	<%- include('./partials/header.ejs') %> 
+	<h1>Home Page</h1>
+	<img src="/images/node.jpg" width="60%">
+
+	<form action="/admin">
+		<label for="user">Ingrese a la vista admin con su usuario</label>
+		<input type="text" name="user" id="user">
+		<input type="submit" value="Cargar">
+	</form>
+</body>
+</html>
